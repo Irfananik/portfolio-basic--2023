@@ -27,6 +27,14 @@ body{
 
 }
 
+.globalBackgroundImage4{
+    background-image: url(images/background-black.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 91% 100%;
+    
+}
+
 .halfWidth-global{
     display: flex;
     width: 100%;
