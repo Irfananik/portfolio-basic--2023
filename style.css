@@ -52,7 +52,11 @@ body{
 }
 
 .global-color{
-    color: #5F6671
+    color: #5F6671;
+}
+
+.hedlin-global{
+    font-size: 30px;
 }
 
 .global-paragraph{
@@ -97,9 +101,36 @@ body{
 .projects-card {
     width: 25%;
     background-color: #D6D6D6;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-top: 20px;
     padding: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 10px;
 }
+
+.contactMe-heading{
+    text-align: center;
+}
+
+/* Style the form container */
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+  }
+
+  /* Style the form fields */
+  .form-container input[type=text],
+  .form-container input[type=email],
+  .form-container textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
