@@ -6,6 +6,19 @@ body{
    background-color: #EEEEEE;
 }
 
+.globalBackgroundImage1{
+    background-image: url(images/background-black.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+.globalBackgroundImage2{
+    background-image: url(images/background-black.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 82% 100%;
+    
+}
+
 .halfWidth-global{
     display: flex;
     width: 100%;
@@ -17,7 +30,7 @@ body{
 #banner-text{
     width: 40%;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #banner-img{
