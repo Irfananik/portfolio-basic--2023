@@ -2,7 +2,7 @@ body{
    margin: 0;
    padding: 0;
    font-family: 'Raleway', sans-serif; 
-   overflow: hidden;
+   overflow-x: hidden;
    background-color: #EEEEEE;
 }
 
@@ -17,6 +17,14 @@ body{
     background-size: 50px;
     background-position: 82% 100%;
     
+}
+
+.globalBackgroundImage3{
+    background-image: url(images/background-black.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    margin-left: 160px;
+
 }
 
 .halfWidth-global{
@@ -79,4 +87,19 @@ body{
 
 #skills-txt ul{
     margin-bottom: 20px;
+}
+
+#projects-heading{
+    text-align: center;
+    margin-top: 36px;
+}
+
+.projects-card {
+    width: 25%;
+    background-color: #D6D6D6;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
 }
